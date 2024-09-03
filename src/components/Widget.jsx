@@ -83,6 +83,7 @@ const Widget = () => {
                     onChange={handleBtcChange}
                     placeholder='Enter BTC amount'
                     min="0"
+                    max="1800"
                     step="0.00000001"
                   />
                 </div>
