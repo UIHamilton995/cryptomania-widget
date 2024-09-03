@@ -1,0 +1,82 @@
+.bgImage {
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  white-space: normal;
+}
+
+.blurred-display {
+  background: rgba(255, 255, 255, 0.2); /* White background with transparency */
+  backdrop-filter: blur(15px); /* Applies the blur effect */
+  border-radius: 30px; /* Rounds the corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
+  max-width: 450px;
+  width: auto; /* Set a width for the display */
+  height: auto; /* Set a height for the display */
+  margin: auto; /* Center the display if needed */
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.iconSize {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.positive {
+  color: green;
+}
+
+.negative {
+  color: red;
+}
+
+.price {
+  color: green;
+}
+
+.converter {
+  align-items: center;
+  text-align: center;
+  text-decoration: solid;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.color {
+  color: darkgoldenrod;
+}
+
+.other-prices {
+  align-items: center;
+  text-align: center;
+  padding-top: 0%;
+}
+
+.crypto-table {
+  margin-bottom: 20px;
+}
+
+.converter-container {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  width: calc(100% - 16px);
+  font-size: 16px;
+  margin-top: 8px;
+}
