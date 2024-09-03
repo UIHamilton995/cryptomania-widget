@@ -1,11 +1,20 @@
+/* Reset default margins and padding for the entire page */
+body, html {
+  margin: 0;
+  padding: 0;;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Prevents any scrolling if not needed */
+}
+
+
 .bgImage {
   background-image: url('./assets/background.jpg');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
-  white-space: normal;
+  position: fixed;
 }
 
 .blurred-display {
@@ -17,10 +26,10 @@
   width: auto; /* Set a width for the display */
   height: auto; /* Set a height for the display */
   margin: auto; /* Center the display if needed */
-  padding-top: 60px;
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-top: 20px;
 }
 
 .iconSize {
@@ -39,7 +48,7 @@
 }
 
 .price {
-  color: green;
+  color: chartreuse;
 }
 
 .converter {
@@ -49,10 +58,6 @@
   padding: 20px;
   font-size: 20px;
   font-weight: bolder;
-}
-
-.color {
-  color: darkgoldenrod;
 }
 
 .other-prices {
@@ -66,8 +71,9 @@
 }
 
 .converter-container {
-  margin-top: 20px;
-  text-align: left;
+  margin-bottom: 40px;
+  text-align: center;
+  width: 300px;
 }
 
 .input-group {
