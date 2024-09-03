@@ -9,7 +9,7 @@ body, html {
 
 
 .bgImage {
-  background-image: url('./assets/background.jpg');
+  background-image: url('../assets/background.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
